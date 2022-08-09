@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Logo from '../assets/image1.png'
+import Logo from '../assets/5.jpg'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter, FaMedium} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {Link} from 'react-scroll'
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 '>
         <div>
-            <img style = {{width: '70px'}} src={Logo} alt="Logo" />
+            <img style = {{width: '70px', border: '50%'}} src={Logo} alt="Logo" />
         </div>
         {/* Menu */}
         
