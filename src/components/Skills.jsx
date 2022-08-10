@@ -3,7 +3,7 @@ import {SiHtml5, SiCss3, SiJavascript, SiReact, SiGithub,SiMicrosoftexcel, SiAma
 import {FaNodeJs, FaConnectdevelop} from 'react-icons/fa'
 const Skills = () => {
   return (
-    <div name='skills' className= 'w-full text-gray-300 bg-[#0a192f] '>
+    <div name='skills' className= 'w-full text-gray-300 bg-[#000000] '>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <p className='text-4xl  py-4 font-bold inline border-b-4 border-pink-600'>Skills</p>
             <p className='py-4'>These are the technologies i have worked with.</p>
