@@ -5,22 +5,24 @@ import portfolio from '../assets/portfolio.png'
 import panther from '../assets/panther.png'
 import gym from '../assets/gym.png'
 import API from '../assets/APIgecko.png'
+import Crypto from '../assets/cryptoanalysis.png'
+import Code from '../assets/GeneralAnalysis.png'
 
 const Work = () => {
   return (
-    <div className='bg-[#000000] w-full md:h-screen text-gray-300' name='work'>
+    <div className='bg-[#000000] w-full md: text-gray-300 p-4' name='work'>
         
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Work</p>
-                <p className='py-6'> check out some of my recent work. </p>
+        <div className='max-w-[4000px] mx-auto my-6 p-6 flex flex-col justify-center w-full h-full'>
+            <div className='pb-10'>
+                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 m-7'>Work</p>
+                <p className='py-8'> check out some of my recent work. </p>
             </div>
                 {/* container */}
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-5'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8'>
                 {/* grid item */}
                 <div 
                 style={{backgroundImage:`url(${Web3})` }} 
-                className='shadow-lg shadow-[#1d2938] 
+                className='shadow-lg shadow-[#ffffff] 
                 group container rounded-md flex justify-center 
                 items-center mx-auto content-div'>
                     
@@ -36,7 +38,7 @@ const Work = () => {
 
                 <div 
                 style={{backgroundImage:`url(${News})` }} 
-                className='shadow-lg shadow-[#1d2938] 
+                className='shadow-lg shadow-[#ffffff] 
                 group container rounded-md flex justify-center 
                 items-center mx-auto content-div'>
                     
@@ -52,7 +54,7 @@ const Work = () => {
 
                 <div 
                 style={{backgroundImage:`url(${portfolio})` }} 
-                className='shadow-lg shadow-[#1d2938] 
+                className='shadow-lg shadow-[#ffffff] 
                 group container rounded-md flex justify-center 
                 items-center mx-auto content-div'>
                     
@@ -68,7 +70,7 @@ const Work = () => {
 
                 <div 
                 style={{backgroundImage:`url(${panther})` }} 
-                className='shadow-lg shadow-[#1d2938] 
+                className='shadow-lg shadow-[#ffffff] 
                 group container rounded-md flex justify-center 
                 items-center mx-auto content-div'>
                     
@@ -84,7 +86,7 @@ const Work = () => {
 
                 <div 
                 style={{backgroundImage:`url(${API})` }} 
-                className='shadow-lg shadow-[#1d2938] 
+                className='shadow-lg shadow-[#ffffff] 
                 group container rounded-md flex justify-center 
                 items-center mx-auto content-div'>
                     
@@ -100,7 +102,7 @@ const Work = () => {
 
                 <div 
                 style={{backgroundImage:`url(${gym})` }} 
-                className='shadow-lg shadow-[#1d2938] 
+                className='shadow-lg shadow-[#ffffff] 
                 group container rounded-md flex justify-center 
                 items-center mx-auto content-div'>
                     
@@ -110,6 +112,39 @@ const Work = () => {
                         <div className='pt-8 text-center'>
                             <a href="/"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Demo</button></a>
                             <a href="https://github.com/Lethalcode69/gymhealthcare.github.io"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Github</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div 
+                style={{backgroundImage:`url(${Crypto})` }} 
+                className='shadow-lg shadow-[#ffffff] 
+                group container rounded-md flex justify-center 
+                items-center mx-auto content-div'>
+                    
+                    {/* hover effect */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='font-2xl font-bold text-black tracking-wide'>Power BI Real-time Update</span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://app.powerbi.com/groups/me/reports/271150ea-bd92-40e8-acf9-b337921ac565/ReportSection"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Sample</button></a>
+                            {/* <a href="https://github.com/Lethalcode69/gymhealthcare.github.io"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Github</button></a> */}
+                        </div>
+                    </div>
+                </div>
+
+
+                <div 
+                style={{backgroundImage:`url(${Code})` }} 
+                className='shadow-lg shadow-[#ffffff] 
+                group container rounded-md flex justify-center 
+                items-center mx-auto content-div'>
+                    
+                    {/* hover effect */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='font-2xl font-bold text-black tracking-wide'>Dashboard Analysis</span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://app.powerbi.com/groups/me/reports/5e9ae67f-a0d1-4b89-b58b-2b28fb99e594/ReportSection"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Analyze</button></a>
+                            {/* <a href="https://github.com/Lethalcode69/gymhealthcare.github.io"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Github</button></a> */}
                         </div>
                     </div>
                 </div>
