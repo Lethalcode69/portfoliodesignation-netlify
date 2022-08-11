@@ -7,6 +7,7 @@ import gym from '../assets/gym.png'
 import API from '../assets/APIgecko.png'
 import Crypto from '../assets/cryptoanalysis.png'
 import Code from '../assets/GeneralAnalysis.png'
+import Adobe from '../assets/Adobe.png'
 
 const Work = () => {
   return (
@@ -30,7 +31,7 @@ const Work = () => {
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='font-4xl font-bold text-Red tracking-wide'>Web3 Project</span>
                         <div className='pt-8 text-center'>
-                            <a href="/"><button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button></a>
+                            {/* <a href="/"><button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button></a> */}
                             <a href="https://github.com/Lethalcode69/Ethereum_wallet"><button className='text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>Gitcode</button></a>
                         </div>
                     </div>
@@ -46,7 +47,7 @@ const Work = () => {
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='font-2xl font-bold text-black tracking-wide'>Crypto News</span>
                         <div className='pt-8 text-center'>
-                            <a href="/"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Demo</button></a>
+                            {/* <a href="/"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Demo</button></a> */}
                             <a href="https://github.com/Lethalcode69/News-based-search"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Gitcode</button></a>
                         </div>
                     </div>
@@ -94,7 +95,7 @@ const Work = () => {
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='font-2xl font-bold text-black tracking-wide'>Coin Gecko API</span>
                         <div className='pt-8 text-center'>
-                            <a href="/"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Demo</button></a>
+                            {/* <a href="/"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Demo</button></a> */}
                             <a href="https://github.com/Lethalcode69/Coingecko"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Gitcode</button></a>
                         </div>
                     </div>
@@ -110,7 +111,7 @@ const Work = () => {
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='font-2xl font-bold text-black tracking-wide'>Gym Rapid API</span>
                         <div className='pt-8 text-center'>
-                            <a href="/"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Demo</button></a>
+                            {/* <a href="/"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Demo</button></a> */}
                             <a href="https://github.com/Lethalcode69/gymhealthcare.github.io"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Github</button></a>
                         </div>
                     </div>
@@ -144,6 +145,22 @@ const Work = () => {
                         <span className='font-2xl font-bold text-black tracking-wide'>Dashboard Analysis</span>
                         <div className='pt-8 text-center'>
                             <a href="https://app.powerbi.com/groups/me/reports/5e9ae67f-a0d1-4b89-b58b-2b28fb99e594/ReportSection"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Analyze</button></a>
+                            {/* <a href="https://github.com/Lethalcode69/gymhealthcare.github.io"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Github</button></a> */}
+                        </div>
+                    </div>
+                </div>
+
+                <div 
+                style={{backgroundImage:`url(${Adobe})` }} 
+                className='shadow-lg shadow-[#ffffff] 
+                group container rounded-md flex justify-center 
+                items-center mx-auto content-div'>
+                    
+                    {/* hover effect */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='font-2xl font-bold text-black tracking-wide'>Adobe Wireframing</span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://xd.adobe.com/view/75e9039a-c053-4cf7-5e5a-a21d006eb819-03d8/?fullscreen"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Demo</button></a>
                             {/* <a href="https://github.com/Lethalcode69/gymhealthcare.github.io"><button className='text-center rounded-lg px-4 py-2 m-2 bg-black text-white-700 font-bold text-lg'>Github</button></a> */}
                         </div>
                     </div>

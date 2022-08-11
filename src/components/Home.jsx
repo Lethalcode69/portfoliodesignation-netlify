@@ -6,8 +6,9 @@ const Home = () => {
     <div className='bg-[#000000] w-full h-screen ' name='home'>
         <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
             <p className='text-pink-600 text-2xl'>Hey, my name is </p>
-            <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Aman Singh </h1>
-            <h2 className='text-4xl sm:text-5xl font-semibold text-[#8892b0]'>I'm a Frontend UI/UX Developer.</h2>
+            <h1 className='text-5xl sm:text-7xl font-bold text-[#ccd6f6]'>Aman Singh </h1>
+            <h2 className='text-4xl sm:text-4xl font-semibold text-[#8892b0]'>I'm a Frontend UI/UX Developer.</h2>
+            <h2 className='text-3xl sm:text-2xl font-6px text-[#dae0f1]'>Btech CSE "2018-2022"</h2>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>I'm a full stack developer specializing in building and designing
                 exceptional digital experience. Currently i'm focused on building 
                 responsive web3 full-stack web application.
